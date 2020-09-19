@@ -1,0 +1,266 @@
+﻿{% extends 'main/base.html' %}
+{% block title %} Abhishek Chauhan's Portfolio  {% endblock %}
+
+{% load static %}
+
+{% block content %}
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h4 style='color: #6dd5ed;'>Abhishek Chauhan</h4> 
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-text"><a class="nav-link" href="#about"> About</a></li>
+                    <li class="navbar-text"><a class="nav-link" href="#skills"> Skills</a></li>
+                    <li class="navbar-text"><a class="nav-link" href="#projects"> Projects</a></li>
+                    <li class="navbar-text"><a class="nav-link" href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="row row-header">
+            <div class="col-12">
+                <h1 style='margin-top:300px; color: #6dd5ed;'>Hi I'm Abhishek Chauhan</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h5 style='margin-top:15px;'>A computer science student passionate about programming and design</h5>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <br>
+        <div class="row row-header justify-content-center" id='about'>
+            <div class='col-auto'>
+                <h1 id='heading1'>About Me</h1>
+            </div>
+        </div>
+        <div class="row row-content justify-content-center">             
+            <div class="col-10 col-sm-2 offset-sm-1 offset-3">
+                <img id='chirag' class='d-flex mr-1 align-self-center' src='/media/chirag.jpg'>
+            </div>
+            <br>
+            <div class="col-12 col-sm-8 offset-sm-1 offset-1">
+                <p> My name is Abhishek Chauhan. I'm an Btech student at School of Engineering and Technology, Bahadurgarh Computer Science Department.</p>
+                <p> I was born and raised in Rohtak, Haryana.</p>
+                <p> I like to travel. I believe travelling gives you a new perspective to everything. You get to know a lot about the different cultures, the cuisines, their history, the language and all the small unique things every place has to offer.</p>
+            </div>
+        </div>
+
+        <div class="row row-header justify-content-center" id='skills'>
+            <div class='col-auto'>
+                <h1 id='heading2'>Skills</h1> 
+            </div>
+        </div>
+
+        <div class='row row-content'>
+            <div class='col-12'>
+                <h3>HTML</h3>
+                <div class='progress' style="height: 22px;">
+                    <div class='progress-bar- bg-primary progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style='width: 80%;'>
+                    <p style='text-align:center; font-size:138%; color:floralwhite;'>80%</p>
+                    </div>
+                </div>
+                <br>
+                <h3>CSS</h3>
+                <div class='progress' style="height: 22px;">
+                    <div class='progress-bar- bg-primary progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style='width: 76%;'>
+                    <p style='text-align:center; font-size:138%; color:floralwhite;'>76%</p>
+                    </div>
+                </div>
+                <br>
+                <h3>BootStrap</h3>
+                <div class='progress' style="height: 22px;">
+                    <div class='progress-bar- bg-primary progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style='width: 60%;'>
+                    <p style='text-align:center; font-size:138%; color:floralwhite;'>60%</p>
+                    </div>
+                </div>
+                <br>
+                <h3>Java Script</h3>
+                <div class='progress' style="height: 22px;">
+                    <div class='progress-bar- bg-primary progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style='width: 35%;'>
+                    <p style='text-align:center; font-size:138%; color:floralwhite;'>35%</p>
+                    </div>
+                </div>
+                <br>
+                <h3>Python</h3>
+                <div class='progress' style="height: 22px;">
+                    <div class='progress-bar- bg-primary progress-bar-striped progress-bar-animated' role='progressbar' aria-valuenow="58" aria-valuemin="0" aria-valuemax="100" style='width: 58%;'>
+                    <p style='text-align:center; font-size:138%; color:floralwhite;'>58%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-header justify-content-center" id='projects'>
+            <div class='col-auto'>
+                <h1 id='heading3'>Projects</h1> 
+            </div>
+        </div>
+
+        <div class='row row-content'>
+            <div class='col-12 col-sm-6'>
+                <div class='row justify-content-center'>
+                    <img id='exam' class='d-flex mr-1 align-self-center' src='/media/exam.png'>
+                </div>
+                <br>
+                <div class='row justify-content-center'>
+                    <h3>Online Exam Portal</h3>
+                </div>
+                <div class='row justify-content-center'>
+                    <blockquote class='blockquote'>
+                    <p class='mb-0'>Web Application</p>
+                    </blockquote>
+                </div>
+                <div class='row justify-content-center'>
+                    <footer class='blockquote-footer'>HTML | CSS | JS | Django
+                    </footer>
+                </div>
+            </div>
+            <div class='col-12 col-sm-6'>
+                <div class='row justify-content-center'>
+                    <img id='crop' class='d-flex mr-1 align-self-center' src='/media/crop.png'>
+                </div>
+                <br>
+                <div class='row justify-content-center'>
+                    <h3>Crop Yield Prediction</h3>
+                </div>
+                <div class='row justify-content-center'>
+                    <blockquote class='blockquote'>
+                    <p class='mb-0'>Web Application</p>
+                    </blockquote>
+                </div>
+                <div class='row justify-content-center'>
+                    <footer class='blockquote-footer'>HTML | CSS | JS | Django | Linear Regression
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <div class='row row-header justify-content-center'>
+            <h1 id='heading4'>Contact Me</h1>
+        </div>
+        <br><br>
+        <div class='row justify-content-center'>
+            <cite title='Source Title'>Feel free to get in touch!</cite>
+        </div>
+
+        <br><br>
+        <div class='row justify-content-center'>
+            <div class='col-6 col-sm-6'>
+                <div class='row justify-content-center'>
+                    <h3>Resume</h3>
+                </div>
+                <br>
+                <div class='row justify-content-center'>
+                    <h5><a href='/media/resume.docx'>Download <i id='download' class="fa fa-download"></i></a></h5>
+                </div>
+            </div>
+
+            <div class='col-6 col-sm-6'>
+                <div class='row justify-content-center'>
+                    <h3>Phone</h3>
+                </div>
+                <br>
+                <div class='row justify-content-center'>
+                    <h5> <a href="tel:+8708181656">+91 8708181656</a></h5>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class='row justify-content-center'>
+            <a href="https://www.facebook.com/profile.php?id=100008363585345"><i id='social1' class="fa fa-facebook" aria-hidden='true'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
+            <a href="https://www.instagram.com/chirag._._chauhan/"><i id='social2' class="fa fa-instagram" aria-hidden='true'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
+            <a href="https://www.linkedin.com/in/abhishek-chauhan-2237501b4/"><i id='social3'class="fa fa-linkedin" aria-hidden='true'>&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
+            <a href="mailto:chiragchauhan12323@gmail.com"><i id='social4' class="fa fa-envelope-o" aria-hidden='true'></i></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class='row'>
+            <div class='col-auto'>
+                <p>© Copyright 2020 Abhishek Chauhan</p>
+            </div>
+        </div>
+    </div>
+
+    <div id='examModal' class='modal fade' role='dialog'>
+        <div class='modal-dialog modal-lg' role='content'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <h4 class='modal-title'></h4>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                </div>
+                <div class='modal-body'>
+                    <div class='col-12'>
+                        <div class='row justify-content-center'>
+                            <h1>Online Exam Portal</h1>
+                        </div>
+                        <br>
+                        <div class='row justify-content-center'>
+                            <img class='d-flex mr-1 align-self-center' src='/media/exam.png'>
+                        </div>
+                        <br>
+                        <div class='row justify-content-center'>
+                            <p> I had built an online exam portal for my college to take the internal exams in this corona
+                            pandemic. In this portal we can take 50 MCQ test of different subjects at the same time </p>
+                            <p>Link - <a href ='https://www.gtcscholarshiptest.herokuapp.com'>https://www.gtcscholarshiptest.herokuapp.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='cropModal' class='modal fade' role='dialog'>
+        <div class='modal-dialog modal-lg' role='content'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <h4 class='modal-title'></h4>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                </div>
+                <div class='modal-body'>
+                    <div class='col-12'>
+                        <div class='row justify-content-center'>
+                            <h1>Crop Yield Prediction</h1>
+                        </div>
+                        <br>
+                        <div class='row justify-content-center'>
+                            <img class='d-flex mr-1 align-self-center' src='/media/crop.png'>
+                        </div>
+                        <br>
+                        <div class='row justify-content-center'>
+                            <p> This app can predict crop prediction using some weather data and some variable filled by farmer accordingly.
+                            I had built this project in the final round of Smart India Hackathon for the Govt. of Bihar and this project works only 
+                            for the regions of Bihar. </p>
+                            <p>Link - <a href ='https://www.crop-prediction-sih.herokuapp.com'>https://www.crop-prediction-sih.herokuapp.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#exam').click(function(){
+                $('#examModal').modal();
+            });
+
+            $('#crop').click(function(){
+                $('#cropModal').modal();
+            });
+        });
+    </script>
+<!-- !Disclaimer - you must not use this website's template in as it is form - please feel free 
+to contact me @ chiragchauhan12323@gmail.com for the source code and implementation in your use case -
+After all I too did take some help from the community -->
+{% endblock %}
